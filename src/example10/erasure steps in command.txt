@@ -1,0 +1,2 @@
+1) javac classname.java
+2) javap -s classname.class
