@@ -27,7 +27,7 @@ class Average<T extends Number> {
 
 	// Determine if two averages are the same.
 	// Notice the use of the type parameter.
-	public boolean sameAvgerage(AverageBounds<T> obj) {
+	public boolean sameAvgerage(Average<T> obj) {
 		if (average() == obj.average())
 			return true;
 
